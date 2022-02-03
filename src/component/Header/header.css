@@ -1,0 +1,26 @@
+.header{
+    width: 100%;
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    font-size: 3.3vw;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    box-shadow: 0px 1px 5px black;
+    color: whitesmoke;
+    z-index: 100;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.prime{
+    color: rgb(143, 144, 145);
+}
+
+@media (max-width: 1000px) {
+    .header{
+        font-size: 7vw;
+    }
+}
