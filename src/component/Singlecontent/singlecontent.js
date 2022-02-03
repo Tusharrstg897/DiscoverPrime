@@ -13,7 +13,7 @@ function Singlecontent(props){
             <a href={`https://www.imdb.com/find?q=${props.title}&ref_=nv_sr_sm`} target="_blank" rel="noopener noreferrer" className="title"><b>{props.title}</b></a>
             <span className="subtitle">{
                 props.media_type==="tv" ? "TV Series" : "Movie"}
-                <span className="subtitle">{props.date.slice(0, 4)}</span>
+                {props.date && <span className="subtitle">{props.date.slice(0, 4)}</span>}
             </span>
 
         </div>
